@@ -1,0 +1,12 @@
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	required = true
+	clean = git-lfs clean -- %f
+[user]
+	name = Chithresh Kannan
+[user]
+	email = chithresh2025@gmail.com
+[core]
+	editor = 'C:/Program\\ Files\\ (x86)/Notepad++/notepad++.exe' -n -w
+[push]
+	default = upstream
